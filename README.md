@@ -17,3 +17,42 @@
  8. git push
  9. git pull
  10. git tag 
+ 
+  ## Links en MarkDown
+Visita nuestro sitio [Colegio San Pablo](htts://www.cpsp.edu.py).
+> Para escribir citas en bloques con esta herramienta podemos utilizar el símbolo mayor que ">".
+>
+>> Esto es una subcita en markdown
+
+## Tablas con markdown
+| Columna 1   | Columna 2    | Columna 3    |
+| ----------- | ------------ | ------------ |
+| elemento 1.1| elemento 1.2 | elemento 1.3 |
+| elemento 2.1| elemento 2.2 | elemento 2.3 |
+| elemento 3.1| elemento 3.2 | elemento 3.3 |
+## Bloques de código
+```
+# Imprimir los pasos del for del 1 al 100
+contador = o
+for i in range(1,100):
+	print("Paso numero:", str(contador))
+	contador += 1
+print("fin del programa")
+```
+## Codigo en la misma linea 
+Un ejemplo básico en Python para escribir un código simple es: `print("Hola mundo")`
+## Advertencias o avisos
+> [!NOTE]
+> Este aviso es utilizado para dejar notas en los repositorios.
+
+> [!TIP]
+> Utilizados para dejar tips dentro de los repositorios.
+
+> [!IMPORTANT]
+> Utilizado para llamar la atención sobre notas importantes en el repositorio.
+
+> [!WARNING]
+> Utilizado para dejar advertencias importantes en el repositorio.
+
+> [!CAUTION]
+> Utilizado para indicar ciertas precauciones en el repositorio.
