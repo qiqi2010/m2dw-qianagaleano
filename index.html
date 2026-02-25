@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table, tr, td, th{
+            border: solid 1px burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABLAS EN HTML</h1>
+    <hr>
+    <table>
+        <tr> <!--table row-->
+            <th>Nro.</th> <!--table head-->
+            <th>Nombre</th>
+            <th>Apellido</th>
+        </tr> 
+        <tr>
+           <td>1</td>
+           <td>Qiana</td>
+           <td>Galeano</td> 
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jorge</td>
+            <td>Brun</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Josefina</td>
+            <td>Samudio</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Bruno</td>
+            <td>Aguilar</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Chilli</td>
+            <td>Willy</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="#">
+        <fieldset>
+            <legend>LOGING </legend>
+            <label for="inNombre">Nombre:</label>
+            <input type="text"id="inNombre"> <br>
+            <input type="text" placeholder="Ingresa tu Nombre..." >
+            <label for="inApellido">Apellido:</label>
+            <input type="text"id="inApellido"><br>
+            <input type="text" placeholder="Ingresa tu Apellido..." >
+            <label for="inPassword">Password:</label>
+            <input type="password" id="inPassword"><br>
+            <label for="inEmail">Email:</label>
+            <input type="email" id="inEmail">
+            <label for="inNumero">Numero:</label><br>
+            <input type="number"id="inNumero">
+            <label for="">Sexo:</label>
+            <input type="radio"><span>Masculino</span>
+            <input type="radio"><span>Femenino</span> <br>
+            <label for="">Colores favoritos</label>
+            <input type="checkbox"> <span>Azul</span>
+            <input type="checkbox"> <span>Gris</span>
+            <input type="checkbox"> <span>Negro</span><br>
+            <input type="submit" value="Click para enviar!"> <br>
+            <input type="button" value="ENVIAR!"><br>
+            <input type="file"><br>
+            <input type="color"> <br>
+            <input type="search"> <br>
+            <input type="url"> <br>
+            <input type="tel"> <br>
+            <input type="date"> <br>
+            <input type="datetime-local"> <br>
+            <input type="week"> <br>
+            <input type="month"> <br>
+                <textarea cols="20" rows="5"></textarea><br>
+                <select>
+                    <option value="">--Selecciona un lenguaje--</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JAVASCRIPT">JavaScripy</option>
+                    <option value="PHP">PHP</option>
+                </select>
+         </fieldset>
+    </form>
+</body>
+</html>
